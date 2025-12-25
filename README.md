@@ -17,7 +17,7 @@ Vector 是一个为 RT-Thread 设计的通用向量容器模块，提供动态�
   - 元素修改：modify
   - 向量操作：sort, for_each, find
   - 向量管理：clear, shrink, destroy
-- 高效的排序算法（合并排序，时间复杂度 O(n log n)）；
+- 高效的排序算法（归并排序，时间复杂度 O(n log n)）；
 - 基于 RT-Thread 内存管理，确保线程安全；
 - 支持批量元素操作（push_back_block, insert_block, remove_block）；
 - 轻量级设计，占用资源少。
